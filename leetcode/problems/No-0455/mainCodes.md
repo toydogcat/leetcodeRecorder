@@ -1,7 +1,9 @@
 
-# version-1
+# method 1
 
-## c++
+## vesion 1
+
+### c++
 
 ```cpp
 int findContentChildren(vector<int>& children, vector<int>& cookies) {
