@@ -21,8 +21,8 @@ public:
 int main() {
     vector<int> children, cookies;
     int arrayChildren[] = {1,2,3}, arrayCookies[] = {1,1};
-    children.assign(arrayChildren, arrayChildren+3);
-    cookies.assign(arrayCookies, arrayCookies+2);
+    children.assign(arrayChildren, arrayChildren+sizeof(arrayChildren));  // arrayChildren+3
+    cookies.assign(arrayCookies, arrayCookies+sizeof(arrayCookies));
     
     Solution solution;
     
